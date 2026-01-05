@@ -13,7 +13,7 @@ class ModuleState:
     drive_temp_c: float = 0.0
     turn_temp_c: float = 0.0
 
-DT = 0.005 # 20 Hz
+DT = 0.005 # 200 Hz
 MAX_TURN_RATE_DPS = 720.0           # deg/sec (tune)
 TURN_TAU = 0.18                     # seconds (lag)
 DRIVE_TAU = 0.25                    # seconds (lag)
